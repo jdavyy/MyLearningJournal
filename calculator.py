@@ -1,3 +1,14 @@
+"""
+Learning outcomes: 
+-This is all fairly trivial but important reminder is the ValueError checking
+Possible Improvements:
+-I could add an input validation loop that instead of just raising an error it loops and prompts the user to try again
+-Could add a frontend. 
+-Could add more complex operations like exponents, square roots
+-Could add more than two numbers 
+"""
+
+
 import sys
 
 def add(x: int, y: int) -> int:
